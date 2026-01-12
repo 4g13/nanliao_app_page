@@ -20,25 +20,40 @@
       border-radius: 16px;
       padding: 28px;
       width: 90%;
-      max-width: 380px;
+      max-width: 400px;
       text-align: center;
       box-shadow: 0 12px 32px rgba(0,0,0,0.2);
     }
     .logo {
-      font-size: 42px;
-      margin-bottom: 12px;
+      font-size: 44px;
+      margin-bottom: 10px;
     }
     h1 {
       font-size: 22px;
-      margin: 0 0 14px;
+      margin: 0 0 16px;
       color: #333;
     }
-    .desc {
-      font-size: 14px;
-      color: #555;
-      line-height: 1.6;
+
+    /* 🔔 重要提醒區塊 */
+    .alert {
+      background: #FFF3CD;
+      border: 1px solid #FFE69C;
+      color: #856404;
+      border-radius: 12px;
+      padding: 16px;
       margin-bottom: 20px;
+      font-size: 15px;
+      line-height: 1.6;
+      font-weight: 600;
     }
+
+    .alert span {
+      display: block;
+      margin-top: 6px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
     .btn {
       display: block;
       padding: 14px;
@@ -55,6 +70,7 @@
     .ios {
       background: #999;
     }
+
     .note {
       font-size: 12px;
       color: #777;
@@ -70,26 +86,30 @@
     <div class="logo">🏮</div>
     <h1>南寮社區導覽 App</h1>
 
-    <div class="desc">
-      歡迎使用南寮社區導覽服務。<br>
-      請先下載並開啟 App，<br>
-      再使用 App 內的「QR Code 掃描」功能進行導覽。
+    <!-- 🔔 強制注意的關鍵訊息 -->
+    <div class="alert">
+      📌 請注意導覽方式
+      <span>
+        本導覽需使用 App 內建的「QR Code 掃描」功能。<br>
+        請先下載並開啟 App，<br>
+        再使用 App 掃描導覽牌上的 QR Code。
+      </span>
     </div>
 
-    <!-- Android：測試 / 未上架 -->
+    <!-- Android：測試版下載 -->
     <a class="btn android"
        href="https://github.com/4g13/nanliao_app_page/releases/latest">
        Android 下載（測試版）
     </a>
 
-    <!-- iOS：未上架 -->
+    <!-- iOS：尚未上架 -->
     <div class="btn ios">
       iOS 版本尚未提供
     </div>
 
     <div class="note">
-      ※ 本頁面僅作為導覽入口。<br>
-      為確保最佳體驗，請使用 App 內建掃描功能。
+      ※ 此頁面僅為導覽入口說明。<br>
+      為確保導覽功能正常，請務必使用 App 內掃描。
     </div>
 
   </div>
