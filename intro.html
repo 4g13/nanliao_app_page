@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>南寮社區 App</title>
+  <title>南寮社區導覽 App</title>
 
   <style>
     body {
@@ -30,8 +30,14 @@
     }
     h1 {
       font-size: 22px;
-      margin: 0 0 18px;
+      margin: 0 0 14px;
       color: #333;
+    }
+    .desc {
+      font-size: 14px;
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 20px;
     }
     .btn {
       display: block;
@@ -52,8 +58,8 @@
     .note {
       font-size: 12px;
       color: #777;
-      margin-top: 10px;
-      line-height: 1.4;
+      margin-top: 14px;
+      line-height: 1.5;
     }
   </style>
 </head>
@@ -62,9 +68,15 @@
   <div class="card">
 
     <div class="logo">🏮</div>
-    <h1>南寮社區 App</h1>
+    <h1>南寮社區導覽 App</h1>
 
-    <!-- Android：未上架 -->
+    <div class="desc">
+      歡迎使用南寮社區導覽服務。<br>
+      請先下載並開啟 App，<br>
+      再使用 App 內的「QR Code 掃描」功能進行導覽。
+    </div>
+
+    <!-- Android：測試 / 未上架 -->
     <a class="btn android"
        href="https://github.com/4g13/nanliao_app_page/releases/latest">
        Android 下載（測試版）
@@ -72,11 +84,12 @@
 
     <!-- iOS：未上架 -->
     <div class="btn ios">
-      iOS 尚未上架
+      iOS 版本尚未提供
     </div>
 
     <div class="note">
-      已安裝 App 將自動開啟
+      ※ 本頁面僅作為導覽入口。<br>
+      為確保最佳體驗，請使用 App 內建掃描功能。
     </div>
 
   </div>
